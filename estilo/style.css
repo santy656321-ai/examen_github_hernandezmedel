@@ -1,0 +1,64 @@
+/* Estilos generales del sitio */
+body {
+  background-color: #f2f2f2; /* Color de fondo suave */
+  color: #333333; /* Color del texto */
+  font-family: Arial, sans-serif; /* Tipografía personalizada */
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado principal */
+header {
+  background-color: #4a90e2; /* Azul */
+  color: white;
+  text-align: center; /* Alinear texto al centro */
+  padding: 20px;
+}
+
+/* Contenedor principal */
+main {
+  margin: 40px auto; /* Márgenes exteriores (centra horizontalmente) */
+  width: 80%; /* Ancho del contenido */
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #1a1a1a;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify; /* Justifica el texto */
+}
+
+/* Botones */
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #357ab7; /* Cambio de color al pasar el cursor */
+}
+
+/* Pie de página */
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
